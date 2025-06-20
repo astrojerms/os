@@ -8,6 +8,10 @@ package:
   dependencies:
     provides:
       - blob-csi=${{package.full-version}}
+    runtime:
+      - coreutils
+      - grep
+      - util-linux-misc
 
 environment:
   contents:
